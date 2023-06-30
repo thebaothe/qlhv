@@ -1,0 +1,90 @@
+/* nổi bật */
+
+.content{
+    padding:40px 0px 20px;
+    text-align: center;
+    background-color:#f1e5de;
+}
+.content p,h2{
+    font-size: 30px !important;
+    font-weight: 10 !important;
+    color:black !important;
+}
+.content p{
+    margin-top:-30px;
+}
+.noiBat_main{
+    padding:0 90px 0 90px;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+}
+.noiBat_item{
+    margin:10px 10px 10px 10px;
+    border:1px solid #f4f4f7;
+    flex:2;
+    padding:0px 0px 10px 0px;
+}
+.detailsp {
+    border-top:3px solid #f4f4f7; 
+    text-align: center;
+    padding-top:10px;
+    
+}
+.detailsp p {
+    font-size: 13px !important;
+    display:inline;
+}
+
+.detailsp_tensp{
+    padding-bottom: 10px;
+    display: block !important;
+}
+.sl {
+    text-decoration:line-through;
+}
+.noiBat_item{
+    box-shadow: 0px 3px 2px 0px #b8b8b8;
+}
+.detailsp_giaSale{
+    color:red;
+}
+.moresp{
+    text-align: center;
+    padding: 15px 0;
+}
+.moresp a:hover{
+    color:black;
+    font-weight: bold;
+}
+.detailsp_tensp a:hover{
+    text-decoration: underline;
+    color:black;
+}
+.themVaoGioHang{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: rgb(153, 64, 52);
+}
+.themVaoGioHang:hover{
+    color:rgb(101, 219, 46);
+    background-color: rgb(45, 92, 114);
+}
+/* zoom ảnh khi hover */
+.img-container{ 
+	height: auto; /** Chiều cao tự động **/ 
+	margin: 10px auto; /** Cách trên dưới 10px và nằm giữa **/ 
+	overflow: hidden; /** DÒNG BẮT BUỘC CÓ **/ 
+	position: relative;  /** Chiều rộng vùng chứa **/ } 
+	
+.img-container img { 
+	width: 100%; /** Hình ảnh rộng 100% so với vùng chứa **/ 
+	transition: all 1s; /** Tạo độ mượt **/ } 
+	
+.img-container:hover img { 
+	-webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}

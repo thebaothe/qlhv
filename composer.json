@@ -1,0 +1,10 @@
+{
+    
+    "type": "library",
+    "license": "n",
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.8",
+        "ext-pdo": "1.0.4dev"
+    }
+}
