@@ -1,7 +1,7 @@
-Template Name: Impact
-Template Author: Untree.co
-Template License: https://creativecommons.org/licenses/by/3.0/
-Author URI: https://untree.co/
-
-Twitter: https://twitter.com/Untree_co
-Facebook: https://web.facebook.com/Untree.co/
+Website quản lý học tập, áp dụng bảo mật cho một số lỗ hổng: sql injection, file upload, file inclusion, XSS, CSRF
+Các chức năng:
+CRUD tài khoản, thông tin sv, gv, môn học (import dữ liệu từ file excel)
+Xem thông tin sv, gv, môn học, danh sách sv
+Nộp bài, đăng bài, thảo luận
+Phân công sv, gv vào các lớp học phần
+Đăng nhập, đổi mk
